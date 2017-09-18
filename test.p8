@@ -21,8 +21,8 @@ function _update()
 	if (btn(1)) x += 1
 	if (btn(2)) y -= 1
 	if (btn(3)) y += 1
-	if (btn(4)) red = true
-	if (btn(5)) blue = true
+	if (btn(4)) blue = true
+	if (btn(5)) red = true
 	
 	if (x > 118) x = 118
 	if (x < 2) x = 2
